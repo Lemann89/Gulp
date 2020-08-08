@@ -1,0 +1,19 @@
+@import "fonts" ;
+@import "icons" ;
+@import "libs" ;
+@import "base" ;
+@import "vars" ;
+
+// Пользовательские стили
+
+.title{
+    font-size: 72px;
+    font-weight: 700;
+    color: $pink;
+}
+
+.icon{
+    font-size: 75px;
+    color: $pink;
+}
+@import "media" ; // Всегда в конце
